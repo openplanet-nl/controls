@@ -14,7 +14,7 @@ namespace Controls
 			requireInput ? UI::WindowFlags::None : UI::WindowFlags::NoInputs);
 
 		UI::PushStyleVar(UI::StyleVar::FramePadding, framePadding); // Restore frame padding
-		UI::Text(text);
+		UI::TextWrapped(text);
 	}
 
 	void EndFrame()
